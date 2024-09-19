@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_logout"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/nav_service"
+            android:title="Add Service"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="About Us"/>
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/nav_person"
+            android:title="Customer Service"/>
+
+    </group>
+    <item
+        android:title="Sharing">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/nav_share"
+                android:title="Share"/>
+        </menu>
+
+    </item>
+    <item
+        android:title="Authenticaticon">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

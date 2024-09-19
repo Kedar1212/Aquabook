@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182063797805",
+    "project_id": "aquabook-be56c",
+    "storage_bucket": "aquabook-be56c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182063797805:android:5210922470f45747ac0aa4",
+        "android_client_info": {
+          "package_name": "com.example.aquabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182063797805-a0nru9bojg2kf6ltagh2of8fhqjdid1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByb7oFrzEynASuaRl_IsyiMnmiZLs-3BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182063797805-a0nru9bojg2kf6ltagh2of8fhqjdid1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

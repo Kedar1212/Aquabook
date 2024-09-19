@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">20dp</dimen>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="card_spacing">25dp</dimen>
+    <dimen name="card_height">150dp</dimen>
+    <dimen name="card_start_margin">5dp</dimen>
+    <dimen name="service_image_height">100dp</dimen>
+    <dimen name="card_text_margin_bottom">0dp</dimen>
+    <fraction name="card_image_opacity" value="0.7" />
+</resources>

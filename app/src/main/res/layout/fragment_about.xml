@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- AquaBook Title -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aquabook"
+            android:textSize="36sp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#606060"
+            android:textStyle="bold"/>
+
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/subtitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:text="Sip, Savor, Repeat !"
+            android:textColor="#606060"
+            android:textSize="18sp" />
+
+        <!-- Short Information -->
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AquaBook is an online water delivery platform that aims to provide convenient and reliable water delivery services to your doorstep."
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#606060"/>
+
+        <!-- CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/lavender"
+            android:layout_marginTop="20dp"
+            app:cardElevation="20dp">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="1000"
+                app:iss_period="1000"
+                app:iss_title_background="@drawable/gradient">
+            </com.denzcoskun.imageslider.ImageSlider>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Team Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team"
+            android:textSize="36sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#606060"
+            android:textStyle="bold"/>
+
+        <!-- Founders and Co-Founders -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:text="Founders and Co-Founders."
+            android:textColor="#606060"
+            android:textSize="18sp" />
+
+        <!-- Founder 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:id="@+id/founder_photo2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/photo"
+                android:layout_marginStart="5dp"
+                android:contentDescription="Founder Photo"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/founder_name2"
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Mr. Kedar Kanase"
+                    android:textColor="#606060"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Computer Engineer"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+                <LinearLayout
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="32dp"
+                        android:src="@drawable/linkdin" />
+                    <TextView
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:autoLink="web"
+                        android:gravity="center"
+                        android:linksClickable="true"
+                        android:text="https://www.linkedin.com/in/kedar-kanase-b94b53206"
+                        android:textColorLink="@color/grey_font"
+                        android:textSize="6dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Founder 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:id="@+id/founder_photo3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/neeraj"
+                android:contentDescription="Founder Photo"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/founder_name3"
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Mr. Neeraj Gadade"
+                    android:textColor="#606060"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Computer Engineer"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+                <LinearLayout
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="32dp"
+                        android:src="@drawable/linkdin" />
+                    <TextView
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:autoLink="web"
+                        android:gravity="center"
+                        android:linksClickable="true"
+                        android:text="https://www.linkedin.com/in/neeraj-gadade"
+                        android:textColorLink="@color/grey_font"
+                        android:textSize="6dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Founder 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:id="@+id/founder_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/rushikesh"
+                android:contentDescription="Founder Photo"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/founder_name"
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Mr. Rushikesh Raut"
+                    android:textColor="#606060"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Computer Engineer"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+                <LinearLayout
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="32dp"
+                        android:src="@drawable/linkdin" />
+                    <TextView
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:autoLink="web"
+                        android:gravity="center"
+                        android:linksClickable="true"
+                        android:text="https://www.linkedin.com/in/rushikesh-raut-25b36b1b8"
+                        android:textColorLink="@color/grey_font"
+                        android:textSize="6dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Founder 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/sumit"
+                android:contentDescription="Founder Photo"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/founder_name1"
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Mr. Sumit Nikam"
+                    android:textColor="#606060"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Computer Engineer"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+                <LinearLayout
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="32dp"
+                        android:src="@drawable/linkdin" />
+                    <TextView
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:autoLink="web"
+                        android:gravity="center"
+                        android:linksClickable="true"
+                        android:text="https://www.linkedin.com/in/sumit-nikam-435a7b22b"
+                        android:textColorLink="@color/grey_font"
+                        android:textSize="6dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Repeat the above layout for other founders -->
+
+        <!-- Guide Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guide"
+            android:textSize="36sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#606060"
+            android:textStyle="bold"/>
+
+        <!-- Guide Image -->
+        <!-- Founder 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:id="@+id/founder_photo1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/sir"
+                android:contentDescription="Founder Photo"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="Prof.G.S Wedpathak"
+                    android:textColor="#606060"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:paddingStart="16dp"
+                    android:text="PHD (Appeared), MGU, Bhopal"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+                <LinearLayout
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="32dp"
+                        android:src="@drawable/linkdin" />
+                    <TextView
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:autoLink="web"
+                        android:gravity="center"
+                        android:linksClickable="true"
+                        android:text="https://www.linkedin.com/in/ganesh-wedpathak-525b3850"
+                        android:textColorLink="@color/grey_font"
+                        android:textSize="6dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Service"
+        android:textSize="30sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#606060"
+        android:textStyle="bold"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="Welcome to AquaBook Customer Support"
+        android:textColor="#606060"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:alpha="0.5"
+        android:background="@color/lavender" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="4dp"
+            android:text="At AquaBook, we are committed to ensuring that your experience with our water delivery service is smooth, convenient, and hassle-free. We understand that questions may arise, issues may need resolution, or you might simply want to provide feedback on your experience. That's why we've established a dedicated customer service team to assist you every step of the way. On this page, you'll find a wealth of resources to help you find answers to common questions, troubleshoot issues, and connect with our support experts. Your satisfaction is our top priority, and we're here to assist you in any way we can. Please explore the information below or use our provided contact options to reach out to our knowledgeable team."
+            android:textColor="#606060"
+            android:textSize="16sp"
+            >
+
+        </me.biubiubiu.justifytext.library.JustifyTextView>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="30dp"
+                android:text="Contact Information"
+                android:textColor="#606060"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:alpha="0.5"
+                android:background="@color/lavender" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="20dp"
+                android:text="Email"
+                android:textColor="#606060"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:text="aquabook0@gmail.com"
+                android:textColor="#606060"
+                android:textSize="15sp"
+                android:autoLink="email"
+                android:textColorLink="#606060"
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact"
+                android:textColor="#606060"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:text="+918956869626"
+                android:textColor="#606060"
+                android:textSize="14sp"
+                android:autoLink="phone"
+                android:textColorLink="#606060" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="110dp"
+        android:text="©all rights reserved">
+
+    </TextView>
+
+</LinearLayout>
